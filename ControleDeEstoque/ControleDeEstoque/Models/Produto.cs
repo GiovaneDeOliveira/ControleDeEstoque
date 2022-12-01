@@ -5,6 +5,7 @@ namespace ControleDeEstoque.Models
 {
     public class Produto
     {
+        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Informe a descrição do produto")]
